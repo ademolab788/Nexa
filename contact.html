@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="code">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="portfolio.html">Portfolio</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn">&#9776;</div>
+    </nav>
+
+    <div class="sidebar">
+        <span class="close-btn">x</span>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    
+
+    <div class="overlay"></div>
+
+    <section class="contact-hero">
+        <div class="contact-hero-content"></div>
+    </section>
+
+
+    <section class="contact-section">
+        <div class="overlay"></div>
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <span class="section-label">GET IN TOUCH</span>
+                <h2>
+                    Have an idea? <br>
+                    <span>Let's talk</span>
+                </h2>
+
+                <p>
+                    Whether you need a new website, a creative design,
+                    developing your next idea, feel free to reach out.
+                </p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">✉</div>
+
+                        <div>
+                            <h3>Email</h3>
+                            <p>ademolab788@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">☎</div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>09034350056</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Lagos, Nigeria</p>
+                        </div>
+                    </div>
+            
+                </div>
+
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="LinkedIn">IN</a>
+                    <a href="#" aria-label="GitHub">GH</a>
+                    <a href="#" aria-label="Twitter">x</a> 
+                </div>
+            </div>
+
+         <div class="contact-form-card">
+            <div class="form-heading">
+                <span>START A PROJECT</span>
+                <h2>Send Me a Message</h2>
+            </div>
+
+            <form action="https://formsubmit.co/ademolab788@gmail.com" method="POST" id="contactForm">  
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="name">Your Name</label>
+                        <input type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter yur name"> 
+                    </div>
+                  
+
+                    <div class="input-group">
+                        <label for="email"> Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="subject">Subject</label>
+                    <input 
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="What is your project about?"
+                    required
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="project">Project Type</label>
+                    <select name="project" id="project">
+                        <option value="Select a project type"></option>
+                        <option value="web-design">Web Design</option>
+                        <option value="development">Web development</option>
+                        <option value="branding">Branding</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+
+                <div class="input-group">
+                    <label for="message">Your Message</label>
+                    <textarea
+                     name="message" 
+                    id="message"
+                    placeholder="Tell me about your project..."
+                    required></textarea>
+                </div>
+           
+
+                <button type="submit" class="contact-submit">Send Messages</button>
+            </form>
+         </div>
+        </div>
+    </section>
+
+    <section class="contact-cta">
+        <div>
+            <span class="section-label">HAVE A PROJECT IN MIND?</span>
+            <h2>Great ideas start with a conversation</h2>
+            <a href="#contactForm" class="cta-button">Start a conversation</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>copyright 2026 Responive Website. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
